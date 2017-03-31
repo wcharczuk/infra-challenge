@@ -41,7 +41,7 @@ def parse_contributor(json_data, contributor):
 
 @app.route('/api/stats/<owner>/<repo>/<contributor>')
 def repoStats(owner, repo, contributor):
-    contributor_stats = parse_contributors(get_contributors(owner, repo))
+    contributor_stats = parse_contributor(get_contributors(owner, repo), contributor)
 
     if contributor not in contributor_stats:
         abort(404)
