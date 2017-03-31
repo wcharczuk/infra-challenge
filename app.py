@@ -36,6 +36,8 @@ def parse_contributor(json_data, contributor):
                 data[author]['commits'] = data[author]['commits'] + week['c']
                 data[author]['additions'] = data[author]['additions'] + week['a']
                 data[author]['deletions'] = data[author]['deletions'] + week['d']
+            
+            return data
     
     return data
 
