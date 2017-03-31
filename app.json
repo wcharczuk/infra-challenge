@@ -7,5 +7,11 @@
     "python",
     "flask"
   ],
+  "env": {
+    "IP_WHITELIST": {
+      "description": "The IPs to whitelist",
+      "value": "34.205.56.84"
+    }
+  },
   "addons": []
 }
