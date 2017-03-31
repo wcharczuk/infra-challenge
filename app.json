@@ -1,0 +1,11 @@
+{
+  "name": "Infrastructure Coding Exercise",
+  "description": "The infrastructure coding challenge designed to be deployed to heroku.",
+  "image": "heroku/python",
+  "repository": "https://github.com/wcharczuk/infra-challenge",
+  "keywords": [
+    "python",
+    "flask"
+  ],
+  "addons": []
+}
